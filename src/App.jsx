@@ -9,7 +9,7 @@ function App() {
     <div className="relative w-screen min-h-screen  bg-yellow-100 overflow-auto">
       <Navbar />
       <Hero/>
-      {/* <ServiceSummary/> */}
+      <ServiceSummary/>
       {/* <Services/> */}
       <About/>
       <section className="min-h-screen bg-amber-400 "/>
