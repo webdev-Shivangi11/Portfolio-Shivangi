@@ -49,7 +49,7 @@ const About = () => {
           My approach combines clean design, smooth interactions, and thoughtful details to ensure every project feels both visually striking and highly functional. Whether it’s designing a portfolio, building a business website, or shaping a brand’s online presence, I focus on creating work that not only looks good but also connects with people in a meaningful way.
         </p>
       </div>
-           <div className=''><img src={img}   alt="Sk" /></div>
+           <div className='flex justify-center '><img src={img}   alt="Sk" /></div>
    
 </div>
     </section>
