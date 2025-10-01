@@ -113,7 +113,7 @@ icontl.current=gsap
            className="flex flex-col flex-wrap  justify-between gap-8 md:flex-row">
            <div className="font-light">
             <p className='tracking-wider text-white/50'>E-mail</p>
-            <p className='text-xl tracking-widest lowercase text-pretty'>johndow@gmail.com</p>
+            <p className='text-xl tracking-widest lowercase text-pretty'>officialshivangik11@gmail.com</p>
            </div>
            <div className="font-light">
             <p className='tracking-wider text-white/50 '>Social Media</p>

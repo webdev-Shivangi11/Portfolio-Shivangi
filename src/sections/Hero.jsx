@@ -3,8 +3,6 @@ import { Canvas } from "@react-three/fiber";
 import { AnimatedTextLines } from '../components/AnimatedTextLines';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { Model } from '../components/Model';
-import { AmbientLight } from 'three';
 import { Environment, Lightformer } from '@react-three/drei';
 import AnimatedHeaderSection from '../components/AnimatedHeaderSection';
 import skLogo from "../assets/skLogo.png"

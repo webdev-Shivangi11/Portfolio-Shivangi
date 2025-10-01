@@ -80,102 +80,70 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "E-commerce",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "An online store specializing in Indian fashion e-commerce company.",
     href: "",
     image: "/assets/projects/mobile-accessories-store.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "Shadcn ui" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Chat app ",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "Build a full-stack MERN messaging app with realtime Socket.io communictation,JWT authentication.The application provides users with an interactive interface to engage in natural language conversations with the GEN-Ai",
     href: "",
     image: "/assets/projects/plant-shop.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "Gen Ai API" },
       { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "MongoDB" },
     ],
   },
-  {
-    id: 3,
-    name: "Apple Tech Marketplace",
-    description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
-    frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
-    ],
-  },
+ 
+ 
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Personal Portfolio",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
-    frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "A sleek and responsive portfolio built with Reactjs, and Tailwind CSS. It showcases my skills, projects, and services with smooth animations using Framer Motion and Gsap  ensuring a seamless experience. ",
     href: "",
     image: "/assets/projects/home-decor-store.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "React" },
+      { id: 2, name: "Gsap" },
+   
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Oochi clone",
     description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+      "A modern, high-performance clone of the Ochi Website, built with cutting-edge web technologies like Next.js, React, Tailwind CSS, GSAP, Framer Motion, and Locomotive Scroll. This project focuses on smooth scrolling, stunning animations, and a responsive UI to deliver a seamless user experience.",
     href: "",
     image: "/assets/projects/game-store.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Tailwind css" },
+      { id: 3, name: "Gsap" },
+      { id: 4, name: "Framer Motion" },
     ],
   },
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "GitHub", href: "https://github.com/webdev-Shivangi11" },
 ];

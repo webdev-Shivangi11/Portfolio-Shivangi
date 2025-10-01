@@ -28,16 +28,18 @@ const About = () => {
         start: 'top 80%',
         end: 'center center',
         scrub: true,
+        
       },
+      // ease:"power1.inOut"
     });
   }, { scope: aboutRef });
 
   return (
     <section
       id="about"
-      className="min-h-screen w-full overflow-hidden bg-white rounded-tl-[60px] rounded-tr-[60px] relative z-10 flex flex-col gap-10 items-center px-6 lg:px-20 py-16"
+      className="min-h-screen w-full overflow-hidden bg-black rounded-tl-[60px] rounded-tr-[60px] relative z-10 flex flex-col gap-10 items-center px-6 lg:px-20 py-16"
     >
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-center mb-10">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-center mb-10 text-white">
         About
       </h1>
 <div className='flex flex-col xl:flex-row gap-10'>
