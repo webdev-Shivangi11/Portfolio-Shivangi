@@ -1,5 +1,5 @@
 // index.js
-export const servicesData = [
+export const skillsData = [
   {
     title: "FullStack Development",
     description:

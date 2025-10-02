@@ -1,15 +1,3 @@
-// "use client";
-// import React from 'react'
-
-// const Skills = () => {
-//   return (
-//     <div className='h-screen bg-red-500'>
-//       bvghjv.hjbyuvbhjbhjvj
-//     </div>
-//   )
-// }
-
-// export default Skills
 
 
 import React from "react";
@@ -86,9 +74,9 @@ export default function SkillBox({ Icon }) {
     <div
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="relative flex items-center justify-center h-[300px] w-full"
+      className="relative flex items-center justify-center h-[45px] xl:h-[160px] lg:h-[120px] w-full"
     >
-      <Icon className="text-[80px]" />
+      <Icon className="text-[40px]  xl:text-[80px]" />
       <div
         ref={scope}
         style={{
@@ -96,7 +84,7 @@ export default function SkillBox({ Icon }) {
         }}
         className="absolute inset-0 flex items-center justify-center bg-neutral-900 text-white"
       >
-        <Icon className="text-[80px]" />
+        <Icon className="text-[40px]" />
       </div>
     </div>
   );

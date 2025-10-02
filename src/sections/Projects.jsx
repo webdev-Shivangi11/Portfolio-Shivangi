@@ -1,4 +1,3 @@
-// import { Icon } from "@iconify/react/dist/iconify.js";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import { projects } from "../constants";
 import { useRef, useState } from "react";
@@ -101,7 +100,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="work" className="flex flex-col min-h-screen">
+    <section id="project" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
         subTitle={"Logic meets Aesthetics, Seamlessly"}
         title={"Project"}
@@ -117,7 +116,7 @@ const Projects = () => {
           <div
             key={project.id}
             id="project"
-            className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0"
+            className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0 "
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
           >
@@ -126,7 +125,7 @@ const Projects = () => {
               ref={(el) => {
                 overlayRefs.current[index] = el;
               }}
-              className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path"
+              className="absolute inset-0 hidden md:block duration-200 bg-gray-300 -z-10 clip-path p-10"
             />
 
             {/* title */}

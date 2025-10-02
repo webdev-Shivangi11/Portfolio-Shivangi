@@ -37,7 +37,7 @@ function AnimatedHeaderSection({subtitle,
              <div 
              ref={headerRef}
              className="flex flex-col justify-center gap-12 pt-16 sm:gap-16">
-                <p className={`text-sm  font-light tracking-[0.3rem] uppercase px-10 ${textColor}`}>
+                <p className={`text-sm sm:text-[20px]  font-light tracking-[0.3rem] uppercase px-10 ${textColor}`}>
                  {subtitle}</p>
                 <div className="px-10">
                     <h1 className={`flex flex-col font-serif flex-wrap gap-12  ${textColor} uppercase banner-text-responsive sm:gap-16 md:block mb-1`}>

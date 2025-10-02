@@ -95,14 +95,14 @@ icontl.current=gsap
  >
 
      <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
-        {["home","about","skills","Project","contact"].map(
+        {["home","about","skills","project","contact"].map(
           (section,index)=>(
     <div key={index} ref={(element)=>(linksRef.current[index]=element)} >
-        <Link className='transition-all duration-300 hover:text-yellow-800' 
+        <Link className='transition-all duration-300 hover:text-gray-700' 
            to={`${section}`}
-                  smooth
+                  smooth={true}
                   offset={0}
-                  duration={2000}
+                  duration={1000}
                   >
                     {section}</Link>
      </div>
@@ -113,7 +113,12 @@ icontl.current=gsap
            className="flex flex-col flex-wrap  justify-between gap-8 md:flex-row">
            <div className="font-light">
             <p className='tracking-wider text-white/50'>E-mail</p>
-            <p className='text-xl tracking-widest lowercase text-pretty'>officialshivangik11@gmail.com</p>
+            <p className='text-xl tracking-widest lowercase text-pretty'>
+                          <a href="mailto:officialshivangik11@gmail.com?subject=Portfolio%20Website"> 
+                             officialshivangik11@gmail.com</a> 
+                           </p>
+
+          
            </div>
            <div className="font-light">
             <p className='tracking-wider text-white/50 '>Social Media</p>

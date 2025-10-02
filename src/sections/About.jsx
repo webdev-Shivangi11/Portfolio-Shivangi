@@ -45,11 +45,11 @@ const About = () => {
 <div className='flex flex-col xl:flex-row gap-10'>
   
       <div ref={aboutRef} className="w-full max-w-5xl">
-        <p className="about-text text-amber-800 text-xl md:text-2xl xl:text-3xl 2xl:text-4xl leading-relaxed  text-bold font-heading  text-center">
+        <p className="about-text text-gray-400 text-xl md:text-2xl xl:text-3xl 2xl:text-4xl leading-relaxed  text-bold font-heading  text-center">
           My approach combines clean design, smooth interactions, and thoughtful details to ensure every project feels both visually striking and highly functional. Whether it’s designing a portfolio, building a business website, or shaping a brand’s online presence, I focus on creating work that not only looks good but also connects with people in a meaningful way.
         </p>
       </div>
-           <div className='flex justify-center '><img src={img}   alt="Sk" /></div>
+           {/* <div className='flex justify-center '><img src={img}   alt="Sk" /></div> */}
    
 </div>
     </section>
